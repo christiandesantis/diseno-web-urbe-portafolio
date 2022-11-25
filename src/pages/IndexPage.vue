@@ -114,7 +114,7 @@
     </div>
 
     <div class="row justify-evenly q-mt-xl">
-      <div class="col-md-5 q-mb-lg">
+      <div class="col-md-5 q-mb-lg" id="actividad-1">
         <q-card class="my-card" flat bordered>
           <q-img
             src="https://firebasestorage.googleapis.com/v0/b/diseno-web-urbe.appspot.com/o/img-1.png?alt=media&token=ab3b8005-412a-4ea2-8cae-66c91e6fb964"
@@ -136,7 +136,7 @@
           </q-card-actions>
         </q-card>
       </div>
-      <div class="col-md-5 q-mb-lg">
+      <div class="col-md-5 q-mb-lg" id="actividad-2">
         <q-card class="my-card" flat bordered>
           <q-img
             src="https://firebasestorage.googleapis.com/v0/b/diseno-web-urbe.appspot.com/o/img-2.png?alt=media&token=c36b4504-e9e2-4444-b3a6-4a9545e22d5d"
@@ -159,7 +159,7 @@
         </q-card>
       </div>
 
-      <div class="col-md-5 q-mb-lg">
+      <div class="col-md-5 q-mb-lg" id="actividad-3">
         <q-card class="my-card" flat bordered>
           <q-img
             src="https://firebasestorage.googleapis.com/v0/b/diseno-web-urbe.appspot.com/o/img-5.png?alt=media&token=35b72a7f-9309-45b3-93d9-0ccd7eb5dded"
@@ -184,7 +184,7 @@
     </div>
 
     <div class="row justify-evenly">
-      <div class="col-md-5 q-mb-lg">
+      <div class="col-md-5 q-mb-lg" id="actividad-4">
         <q-card class="my-card" flat bordered>
           <q-img
             src="https://firebasestorage.googleapis.com/v0/b/diseno-web-urbe.appspot.com/o/img-3.png?alt=media&token=5b225f1b-f694-400f-866f-5901019cc3ed"
@@ -199,14 +199,14 @@
           </q-card-section>
 
           <q-card-actions>
-            <q-btn flat color="dark" label="Github" disabled />
+            <q-btn flat color="dark" label="Github" href="https://github.com/christiandesantis/diseno-web-urbe-portafolio.git" target="_blank" />
             <q-btn flat color="primary" to=/modas label="Ir al sitio web" />
 
             <q-space />
           </q-card-actions>
         </q-card>
       </div>
-      <div class="col-md-5 q-mb-lg">
+      <div class="col-md-5 q-mb-lg" id="actividad-5">
         <q-card class="my-card" flat bordered>
           <q-img
             src="https://firebasestorage.googleapis.com/v0/b/diseno-web-urbe.appspot.com/o/img-4.png?alt=media&token=8a13f9f1-cd8a-49f3-a254-2fb6148c628a"
@@ -221,7 +221,7 @@
           </q-card-section>
 
           <q-card-actions>
-            <q-btn flat color="dark" label="Github" disabled />
+            <q-btn flat color="dark" label="Github" href="https://github.com/christiandesantis/diseno-web-urbe-portafolio.git" target="_blank" />
             <q-btn flat color="primary" to="/crypto"  label="Ir al sitio web" />
 
             <q-space />
@@ -233,8 +233,4 @@
 </template>
 
 <script setup lang="ts">
-import { Todo, Meta } from 'components/models'
-import ExampleComponent from 'components/ExampleComponent.vue'
-import { ref } from 'vue'
-
 </script>
